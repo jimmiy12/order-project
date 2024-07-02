@@ -12,6 +12,8 @@ async function fetchData(url) {
     }
 }
 
+console.log("hhhhhhhhhhhhhhhhhhhhhhhhhhhhh")
+
 // 2. 定义书签工具的主逻辑
 async function main() {
     // 依次请求四个接口获取数据
