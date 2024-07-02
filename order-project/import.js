@@ -12,19 +12,16 @@ async function fetchData(url) {
     }
 }
 
-console.log("hhhhhhhhhhhhhhhhhhhhhhhhhhhhh")
+
 
 // 2. 定义书签工具的主逻辑
 async function main() {
     // 依次请求四个接口获取数据
-    let data1 = await fetchData('https://api.example.com/data1');
-    let data2 = await fetchData('https://api.example.com/data2');
-    let data3 = await fetchData('https://api.example.com/data3');
-    let data4 = await fetchData('https://api.example.com/data4');
+console.log("hhhhhhhhhhhhhhhhhhhhhhhhhhhhh")
 
     // 构建弹窗的 HTML 结构
     let popupHTML = `
-        <div id="popup">
+        <div id="popup-container">
             <select id="dropdown1">
                 <option value="${data1.value}">${data1.label}</option>
                 <!-- 其他选项 -->
